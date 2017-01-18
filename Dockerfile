@@ -22,7 +22,7 @@ RUN echo "deb http://dl.google.com/linux/chrome/deb/ stable main" | tee -a /etc/
     && rm -rf /var/lib/apt/lists/*
 
 ENV DISPLAY :99
-ENV CHROME_BIN /usr/bin/google-chrome
+ENV CHROME_BIN /usr/bin/chromium
 
 COPY xvfb-setup.sh /usr/local/bin
 RUN chmod a+x /usr/local/bin/xvfb-setup.sh
