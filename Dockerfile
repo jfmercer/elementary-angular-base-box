@@ -1,4 +1,4 @@
-FROM jfmercer/yarn:7.6.0
+FROM jfmercer/yarn:8.1.0
 
 MAINTAINER John F. Mercer <john.f.mercer@gmail.com>
 
